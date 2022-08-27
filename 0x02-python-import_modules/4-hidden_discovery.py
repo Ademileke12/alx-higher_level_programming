@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if _name_ == "_main_":
+if __name__ == "__main__":
     import hidden_4
     all_dir = dir(hidden_4)
     for i in range(0, len(all_dir)):
