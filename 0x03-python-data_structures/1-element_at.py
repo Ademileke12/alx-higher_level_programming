@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def element_at(my_list, idx):
     size = len(my_list)
-    if idx <= 0 or idx > size:
+    if idx < 0 or idx > size:
         return "none"
-    else:
+    elif idx >= 0 <= size:
         return my_list[idx]
