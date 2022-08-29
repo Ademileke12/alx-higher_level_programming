@@ -7,7 +7,7 @@ def print_list_integer(my_list=[]):
     i: loop through list
 
     Returns:
-     return nothing but prints my_list[i]
+     return nothing but prints my_list on a new line
     """
     size = len(my_list)
     for i in range(0, size):
