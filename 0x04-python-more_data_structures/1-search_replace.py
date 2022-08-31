@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-def search_replace(my_list, search, replace):
-    return [replace if search == n else n for n in my_list]
+def square_matrix_simple(matrix=[]):
+    new_matrix = []
+    for x in range(len(matrix)):
+       new_matrix = matrix.append(matrix**2)
+    return (new_matrix)
