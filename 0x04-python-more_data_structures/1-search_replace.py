@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-def square_matrix_simple(matrix=[]):
-    new_matrix = []
-    for x in range(len(matrix)):
-       new_matrix = matrix.append(matrix**2)
-    return (new_matrix)
+def search_replace(my_list, search, replace):
+    new_list = my_list.copy()
+    if search in new_list:
+        search = new_list.index(search)
+        new_list[search] = replace
+        return new_list
