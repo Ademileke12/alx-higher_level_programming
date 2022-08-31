@@ -140,9 +140,9 @@ set_2 = { "Bash", "C", "Ruby", "Perl" }
 c_set = common_elements(set_1, set_2)
 print(sorted(list(c_set)))
 """
-def uniq_add(my_list=[]):
+"""def uniq_add(my_list=[]):
     my_list = list(dict.fromkeys(my_list))
     total = sum(my_list)
     return total
 my_list = [1, 2, 3, 1, 4, 2, 5]
-print(uniq_add(my_list))
+print(uniq_add(my_list))"""
