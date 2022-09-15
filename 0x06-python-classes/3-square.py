@@ -3,6 +3,7 @@
 This is the module for Squre below
 """
 
+
 class Square:
     """ This is the implementation for the area"""
     def __init__(self, size=0):
