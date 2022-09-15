@@ -4,8 +4,8 @@
 
 
 class Square:
+    """ The square implementation"""
     __size = None
 
     def __init__(self, size):
-        """ This is the Square implementation"""
         self.__size = size
