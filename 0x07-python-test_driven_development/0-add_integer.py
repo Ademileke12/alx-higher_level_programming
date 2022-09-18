@@ -6,4 +6,4 @@ def add_integer(a, b=98):
     elif type(b) != int and type(b) != float:
         raise TypeError('b must be an integer')
     else:
-        return ("{:.0f}".format(a + b))
+        return (int(a) + int(b))
