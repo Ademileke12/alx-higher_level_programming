@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-def copy_list(lcop):
-    new_list = lcop.copy()
-    return new_list
+def copy_list(l):
+    return l.copy()
