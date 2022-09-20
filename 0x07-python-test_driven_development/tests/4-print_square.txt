@@ -28,3 +28,5 @@
 >>> print("")
 
 >>> print_square(-1)
+Traceback (most recent call last):
+TypeError: size must be >= 0
