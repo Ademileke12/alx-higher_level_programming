@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """Module 10-square.
 Creates a Square class.
 """
@@ -32,4 +33,4 @@ class Square(Rectangle):
         Overwrites the area() method from Rectangle.
         """
 
-        return self.__size ** 2
+        return self.__size ** 
